@@ -1,0 +1,134 @@
+body
+{
+    background-color: rgb(245, 242, 241);
+    position: relative;
+
+}
+tb,th,tr,table
+{
+    border :1px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+    
+}
+td
+ {
+    text-align: center;
+ }
+table
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    /* padding-left: 10px; */
+}
+
+td
+{
+    border :1px solid black;
+    font-size: 15px;
+}
+
+.list{
+    margin-left: 206px;
+}
+
+
+th
+{
+    padding-top:30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+h1{
+    text-align: center;
+}
+
+.addbutton
+{
+    position: absolute;
+    width: fit-content;
+    right: 3rem;
+    top: 3px;
+    background-color: azure;
+    top:1.5rem;
+    height: 20px;
+    width:100px;
+
+}
+
+.actionbtns
+{
+    gap: 1rem;
+    text-align: center;
+}
+
+.actionbtns svg {
+    margin: 0px 5px;
+}
+td button{
+    border:none;
+    size:3px;}
+
+.Top-Bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+img{
+    height: 80px;
+    position:absolute;
+    left: 29px;
+}
+
+
+.confirm-popup
+{
+    background-color: rgb(206, 206, 119);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.confirmbuttons button
+{
+    margin: 8px 2px;;
+}
+
+.opacity-3 {
+    opacity: 0.3;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.Editbtn
+{
+    padding-left: 5px;
+}
+
+.background-opacity {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: gray;
+    left: 0px;
+    top: 0px;
+    opacity: 0.2;
+}
+
+.alert {
+    position: relative;
+    z-index: 1;
+}
